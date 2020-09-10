@@ -1,13 +1,13 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  
 }
-
-
 
 .App-header {
   background-color: #282c34;
@@ -31,4 +31,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.message {
+  max-width: 80%;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+
+.codebit {
+  font-size: 14px;
+  width: 95%;
+
 }
